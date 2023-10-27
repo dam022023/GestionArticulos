@@ -24,6 +24,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        
         <TextBox Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="97,258,0,0" Name="txtCodigo" VerticalAlignment="Top" Width="178" Text="{Binding ElementName=UserGrid,Path=SelectedItem.Codigo}" />
         <TextBox Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="97,286,0,0" Name="txtNombre" VerticalAlignment="Top" Width="178" Text="{Binding ElementName=UserGrid,Path=SelectedItem.Nombre}" />
         <TextBox Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="97,313,0,0" Name="txtDescripcion" VerticalAlignment="Top" Width="178" Text="{Binding ElementName=UserGrid,Path=SelectedItem.Descripcion}" />
